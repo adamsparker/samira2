@@ -30,6 +30,8 @@ a {
 
 body {
     background-color: #141414;
+    margin: 0;
+    padding: 0;
 }
 
 .logo {
@@ -132,4 +134,63 @@ body {
     background: linear-gradient(90deg, rgba(90,90,90,1) 2%, rgba(101,101,101,0.8099614845938375) 56%, rgba(255,255,255,0) 100%);
 }
 
+/* Bottom - Header */
 
+.bottom-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 2em;
+}
+
+.bh-item {
+    display: flex;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    
+}
+
+.item-title {
+    font-size: 1.2em;
+}
+
+.item-subtitle {
+    color: #686868;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.9em;
+
+}
+
+.scroll-title {
+    color: #686868;
+    font-weight: 500;
+}
+
+.scroll-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.icon {
+    height: 10px;
+}
+
+.volcano-icon {
+    height: inherit;
+}
+
+.status-title {
+    position: relative;
+}
+
+.status-title::after {
+    top: 30%;
+    right: 0;
+    border-radius: 100%;
+    position: absolute;
+    display: block;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background-color: #35bd35;
+}
