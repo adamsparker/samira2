@@ -73,7 +73,7 @@ body {
     justify-content: space-between;
     height: 100vh;
     background: url(../assets/pc-image.png) center no-repeat;
-    background-size: 75vh;
+    background-size: 65vh;
 }
 
 .text__inner {
@@ -194,3 +194,63 @@ body {
     width: 10px;
     background-color: #35bd35;
 }
+
+/* Main */
+
+.main {
+    height: 80vh;
+    padding: 1em 2em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main__left-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 80%;
+    width: 50%;
+}
+
+.main-title {
+    font-weight: 500;
+    font-size: 2.8em;
+    color: #3F3F3F;
+}
+
+.white-highlight {
+    color: #ffffff;
+}
+
+.main-text__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-subtitle {
+    font-size: 14px;
+    color: #3F3F3F;
+    font-weight: 400;
+
+}
+
+
+.line-hover {
+    position: relative;
+    cursor: pointer;
+}
+
+.line-hover::after {
+    position: absolute;
+    right: 0;
+    display: block;
+    content: '';
+    height: 2px;
+    width: 0%;
+    background-color: #ffffff;
+    transition: .2s all;
+}
+
+.line-hover:hover::after {
+    width: 100%;
+    transition: .2s all;
+}   
