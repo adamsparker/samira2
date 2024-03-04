@@ -443,3 +443,60 @@ body {
     font-family: 'Roboto', sans-serif;
     color: #3F3F3F;
  }
+
+/* CARDS */
+
+.logo-inner {
+    padding: 1em 2em;
+}
+
+.cards {
+    height: 100vh;
+}
+
+.cards__inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85%;
+}
+
+.card {
+    background-color: #1D1B1B;
+    width: 22.5%;
+    border-radius: 20px;
+    padding: 10px;
+ 
+}
+
+.card-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1em 0;
+    border-radius: 10px;
+    background-color: #0A7B20;
+    margin-bottom: 13px;
+}
+
+.card-title, .card-subtitle {
+    margin: 0em 1em;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.card-title {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.card-bottom {
+    width: 100%;
+    border-radius: 10px;
+    padding-top: 130%;
+    padding-bottom: 5%;
+    background: url(../assets/card-01.png) center no-repeat #0a6b1d;
+    background-size: 200%;
+}
